@@ -8,13 +8,49 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    background-image: linear-gradient( 106.9deg,  rgba(148,14,60,1) 60.9%, rgb(53, 7, 23) 122.3% );
+}
+
 .header {
     width: 100%;
     height: 80px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__img {
     width: 250px;
-    margin: 5px 0px 0px 8px;
+    margin: 20px 0px 0px 35px;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0px 0px 0px -14px;
+}
+
+.header__menu:hover ul, ul:hover {
+    display: block;
+}
+
+.header__menu li {
+    margin: 10px 0px;
+}
+
+.header__menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__menu--profile {
+    margin-right: 15px;
+    width: 60px;
 }
