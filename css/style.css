@@ -62,24 +62,23 @@ body {
     align-items: center;
 }
 
-.login__container--remember-me {
+.login__container--password {
     color: #ffffff;
     display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
-.login__container--remember-me a {
+.login__container--password a {
     color: #ffffff;
     font-size: 1.2rem;
     text-decoration: none;
 }
 
-.login__container--remember-me a:hover {
+.login__container--password a:hover {
     text-decoration: underline;
 }
 
-.login__container--register a:hover {
+.login__container--password a:hover {
     text-decoration: underline;
 }
 
@@ -97,6 +96,13 @@ body {
     width: 350px;
 }::placeholder {
     color: #ffffff;
+}
+
+.login__container--remember-me {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .button {
