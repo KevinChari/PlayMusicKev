@@ -11,7 +11,8 @@ html {
 }
 
 body {
-    background-image: linear-gradient(rgba(198, 203, 218, 0.20), rgba(198, 203, 218, 0.20)), url(../img/fondocool.jpg);
+    background-image: linear-gradient(rgb(35, 47, 92), rgb(39, 54, 88)), url(../img/medianaFoto2.jpg);
+    background-color: rgb(28, 46, 148);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,7 +36,7 @@ body {
 .header__icon {
     max-width: 40px;
     height: 40px;
-    margin-left: 110px;
+    margin-left: 125px;
 }
 .header__icon button {
     width: 45px;
@@ -102,10 +103,10 @@ body {
 }
 
 .login__container {
-    -webkit-box-shadow: 1px 0px 42px 8px rgba(0,0,0,0.69);
-    -moz-box-shadow: 1px 0px 42px 8px rgba(0,0,0,0.69);
-    box-shadow: 1px 0px 42px 8px rgba(0,0,0,0.69);
-    background-image: linear-gradient(rgba(53, 85, 165, 0.25), rgba(53, 85, 165, 0.25)), url(../img/definitiva.jpg);
+    box-shadow: 0px 1px 20px 7px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 0px 1px 20px 7px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 1px 20px 7px rgba(0,0,0,0.54);
+    background-image: linear-gradient(rgba(53, 85, 165, 0.25), rgba(53, 85, 165, 0.25)), url(../img/medianaFoto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.1);
@@ -246,7 +247,7 @@ body {
 .footer {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 30px;
     width: 100%;
 }
 
@@ -254,7 +255,8 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2rem;
-    padding-left: 30px;
+    margin-bottom: 60px;
+    margin-left: 35px;
 }
 .footer a:hover {
     text-decoration: underline;
